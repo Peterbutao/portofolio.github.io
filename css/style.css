@@ -1,0 +1,353 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+a{
+    text-decoration: none;
+}
+/*first page*/
+.brand p {
+    color: seashell;
+    font-size: 16px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.nav_bar{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    display: flex;
+}
+.left-nav{
+    display: flex;
+    margin-left: auto;
+}
+.hambr{
+    padding: 10px;
+}
+
+#frst_pg{
+    background: url('../asserts/img/pic6.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.548);
+    background-blend-mode: multiply;
+}
+
+.nav_bar ul li a{
+    text-decoration: none;
+    color: seashell;
+
+}
+
+
+.nav_bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    
+}
+.midSectNm{
+    color: seashell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.midSectTitle{
+    color: goldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.1em;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.midSectWords{ 
+    border-left: white solid 1.9px;
+    margin-left: 50px;
+    margin-top: 180px;
+
+     
+    
+}
+.ico-words{
+    color: seashell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10.5px;
+    text-align: center;
+}
+.mid-icons{
+    display: flex;
+    flex: 1;
+    margin-top:60px;
+    margin-left: 40px;
+    
+}
+.frst-ico{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.snd-ico{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.thrd-ico{
+    padding-right: 5px;
+    padding-left: 20px;
+}
+.stWords{
+    
+    border: solid goldenrod 1px;
+    border-radius: 4rem;
+    display: flex;
+    
+    
+    
+   
+
+}
+
+
+.stIco{
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.getStWords{
+    color: seashell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.stWords:hover{
+    background-color: rgba(218, 165, 32, 0.384);
+    cursor: pointer;
+    
+}
+.scIcons{
+    margin-left: 5px;
+    width: 50px;
+    margin-top: 40px;
+    background-color: rgba(218, 165, 32, 0.219)
+}
+.scIcons ul li{
+    list-style: none;
+    padding: 10px;
+}
+.frstpgfoot{
+    display: flex;
+}
+.bottomSect{
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 120px;
+}
+/* second page */
+
+.snd_pg{
+    background-image: url('../asserts/img/Screenshot\ \(105\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.123);
+    background-blend-mode: multiply;
+}
+.sndpgtab{
+    position: relative;
+}
+.tabbackgrnd{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.itemswrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.tabbackgrnd{
+    background-color: rgba(0, 0, 0, 0.719);
+    background-blend-mode: multiply;
+}
+.texticon-wrapper{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    margin-left: 10%;
+    
+}
+.tabicon-wrapper img{
+    width: 120%;
+}
+.tabtext{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    border-bottom: white solid 1.3px;
+}
+.sndpgdisc{
+    color: white;
+    padding-top:10px;
+    text-align: center;
+}
+.sfticolist{
+    display: flex;
+    
+
+}
+.sftico{
+    background-image: url('../asserts/img/icons/Instagram-1.png');
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.sftico1{
+    background-image: url('../asserts/img/icons/Instagram-1.png');
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.sftico2{
+    background-image: url('../asserts/img/icons/Instagram-1.png');
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.softicons ul li{
+    list-style: none;
+}
+.intermidcontainer{
+    display: flex;
+}
+.displayp{
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  
+
+}
+.allintertext{
+    
+    text-align: center;
+    
+
+}
+/*.intermid{
+    background-color: #967675;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+.about{
+    background-image: url('../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg');
+    background-color: #000000d5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.intermidwords{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-right: 1px;
+    padding-left: 1px;
+
+}
+.intermidaddress{
+    color: rgba(255, 255, 255, 0.459);
+    padding-top: 30px;
+}
+.intermidicons ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+.intermidicons ul li{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+
+}
+.intermidtitle{
+    color: white;
+    font-size: 20px;
+    background-image: url('../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg');
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.589);
+    background-blend-mode: multiply;
+    text-align: center;
+    
+    
+}
+.readmore {
+    padding-top: 15px;
+    
+
+}
+.readmore a{
+    color: white;
+    border: rgb(218, 165, 32) solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 4rem;
+
+}
+
+.portowrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.portimg img{
+    height: 200px;
+    flex: 1 1 50%;
+    padding: 0px;
+    
+}
+.portocontainer{
+    background-image: url('../asserts/img/bg_1.jpg');
+    background-color: #0000002c;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+
+}
