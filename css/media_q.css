@@ -90,11 +90,12 @@
         pointer-events: all;
        
     }
-    .itemswrapper{
+    #iwp{
         display: grid;
         grid-template-columns: 1fr;
        
     }
+    
     .intermidcontainer{
         display: grid;
         grid-template-columns: 1fr;
