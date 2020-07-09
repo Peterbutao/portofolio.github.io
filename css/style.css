@@ -1,269 +1,296 @@
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-html body{
-    height: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
+
+html body {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 0.1%;
+  margin-right: 0.1%;
 }
-a{
-    text-decoration: none;
+
+a {
+  text-decoration: none;
 }
+
 /*first page*/
-
-
-#frst_pg{
-    background: url('../asserts/img/pic6.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;  
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.548);
-    background-blend-mode: multiply;
+#frst_pg {
+  background: url("../asserts/img/pic6.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.548);
+  background-blend-mode: multiply;
 }
 
 .brand p {
-    color: seashell;
-    font-size: 16px;
-    padding: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-.nav_bar{
-    display: flex;
-    justify-content: center;
+  color: seashell;
+  font-size: 16px;
+  padding: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.nav_bar ul li a{
-    text-decoration: none;
-    color: seashell;
-
+.nav_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-
-.nav_bar ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 5px;
-    
-}
-.left-nav{
-    display: flex;
-    margin-left: auto;
-}
-.head{
-    display: flex;
+.nav_bar ul li a {
+  text-decoration: none;
+  color: seashell;
 }
 
-.hambr{
-    padding: 10px;
+.nav_bar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.left-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hambr {
+  padding: 10px;
 }
 
 /* mid section */
-
-.midSectNm{
-    color: seashell;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13px;
-    padding-left: 15px;
-    padding-bottom: 15px;
+.midSectNm {
+  color: seashell;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
-.midSectTitle{
-    color: goldenrod;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.1em;
-    font-weight: bold;
-    padding-left: 15px;
+.midSectTitle {
+  color: goldenrod;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.1em;
+  font-weight: bold;
+  padding-left: 15px;
 }
-.midSectWords{ 
-    border-left: white solid 1.9px;
-    margin-left: 50px;
-    margin-top: 180px;
 
-     
-    
+.midSectWords {
+  border-left: white solid 1.9px;
+  margin-left: 50px;
+  margin-top: 180px;
 }
-.ico-words{
-    color: seashell;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 10.5px;
-    text-align: center;
+
+.ico-words {
+  color: seashell;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10.5px;
+  text-align: center;
 }
-.mid-icons{
-    display: flex;
-    flex: 1;
-    margin-top:60px;
-    margin-left: 40px;
-    
+
+.mid-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 60px;
+  margin-left: 40px;
 }
-.frst-ico{
-    padding-right: 5px;
-    padding-left: 5px;
+
+.frst-ico {
+  padding-right: 5px;
+  padding-left: 5px;
 }
-.snd-ico{
-    padding-left: 5px;
-    padding-right: 5px;
+
+.snd-ico {
+  padding-left: 5px;
+  padding-right: 5px;
 }
-.thrd-ico{
-    padding-right: 5px;
-    padding-left: 20px;
+
+.thrd-ico {
+  padding-right: 5px;
+  padding-left: 20px;
 }
-.stWords{
-    
-    border: solid goldenrod 1px;
-    border-radius: 4rem;
-    display: flex;  
-    
+
+.stWords {
+  border: solid goldenrod 1px;
+  border-radius: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /* first page bottom */
-
-.stIco{
-    padding-left: 5px;
-    padding-right: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    
-}
-.getStWords{
-    color: seashell;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 10px;
-    padding-top: 5px;
-}
-.stWords:hover{
-    background-color: rgba(218, 165, 32, 0.384);
-    cursor: pointer;
-    
-}
-.scIcons{
-    margin-left: 5px;
-    width: 50px;
-    margin-top: 40px;
-    background-color: rgba(218, 165, 32, 0.219)
-}
-.scIcons ul li{
-    list-style: none;
-    padding: 10px;
-}
-.frstpgfoot{
-    display: flex;
-}
-.bottomSect{
-    margin-left: auto;
-    margin-right: 5px;
-    margin-top: 120px;
+.stIco {
+  padding-left: 5px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
+.getStWords {
+  color: seashell;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.stWords:hover {
+  background-color: rgba(218, 165, 32, 0.384);
+  cursor: pointer;
+}
+
+.scIcons {
+  margin-left: 5px;
+  width: 50px;
+  margin-top: 40px;
+  background-color: rgba(218, 165, 32, 0.219);
+}
+
+.scIcons ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.frstpgfoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottomSect {
+  margin-left: auto;
+  margin-right: 5px;
+  margin-top: 120px;
+}
 
 /*intermiddle section / about*/
-
-.intermidcontainer{
-    display: flex;
-}
-.displayp{
-    height: 350px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-  
-
-}
-.allintertext{
-    
-    text-align: center;
-    
-
+.intermidcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.about{
-    background-image: url('../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg');
-    background-color: #000000d5;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode: multiply;
+.displayp {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.intermidwords{
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    font-weight: 300;
-    padding-top: 10px;
-    padding-right: 1px;
-    padding-left: 1px;
 
+.allintertext {
+  text-align: center;
 }
-.intermidaddress{
-    color: rgba(255, 255, 255, 0.459);
-    padding-top: 30px;
-}
-.intermidicons ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
 
+.about {
+  background-image: url("../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg");
+  background-color: #000000d5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
 }
-.intermidicons ul li{
-    
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
 
+.intermidwords {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-right: 1px;
+  padding-left: 1px;
 }
-.intermidtitle{
-    color: white;
-    font-size: 20px;
-    background-image: url('../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg');
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.589);
-    background-blend-mode: multiply;
-    text-align: center;
-    
-    
+
+.intermidaddress {
+  color: rgba(255, 255, 255, 0.459);
+  padding-top: 30px;
 }
+
+.intermidicons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intermidicons ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.intermidtitle {
+  color: white;
+  font-size: 20px;
+  background-image: url("../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg");
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.589);
+  background-blend-mode: multiply;
+  text-align: center;
+}
+
 .readmore {
-    padding-top: 15px;
-    
-
+  padding-top: 15px;
 }
-.readmore a{
-    color: white;
-    border: rgb(218, 165, 32) solid 1px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    border-radius: 4rem;
 
+.readmore a {
+  color: white;
+  border: goldenrod solid 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 4rem;
 }
+
 /* porto section*/
-
-.portowrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+.portowrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.portimg img{
-    height: 200px;
-    flex: 1 1 50%;
-    padding: 0px;
-    
-}
-.portocontainer{
-    background-image: url('../asserts/img/bg_1.jpg');
-    background-color: #0000002c;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode: multiply;
 
+.portimg img {
+  height: 200px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  padding: 0px;
+}
+
+.portocontainer {
+  background-image: url("../asserts/img/pic6.jpeg");
+  background-color: #0000009c;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
 }

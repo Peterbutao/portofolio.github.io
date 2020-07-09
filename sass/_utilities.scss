@@ -1,0 +1,83 @@
+.bg {
+    &-primebg {
+        @include set-back($primary);
+        border: solid 1px $primary;
+        background-color: $primary;
+    } 
+    &-lightbg {
+        @include set-back($light);
+        border: solid 0.9px #ccc;
+        background-color: $light;
+    } 
+    &-darkbg {
+        @include set-back($dark);
+        background-color: $dark;
+    } 
+    &-dangerbg {
+        @include set-back($danger);
+        background-color: $danger;
+    } 
+    &-donebg {
+        @include set-back($done);
+        background-color: $done;
+    } 
+    &-goldbg {
+        @include set-back($gold);
+        background-color: $gold;
+    } 
+}
+
+.text{
+    &-prime {
+        @include set-text();
+        color: $primary;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    &-pone {
+        @include set-text();
+        font-weight: 300;
+        font-size: 15px;
+    }
+    &-ptwo {
+        @include set-text();
+        font-size: 13px;
+        font-weight: 200;
+    }
+    &-pthree {
+        
+        font-weight: 500;
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.555);
+        padding-bottom: 4px;
+       
+    }
+}
+
+//margin ans padding
+$items : (1,2,3,4,5);
+
+@each $space in $items {
+    .m-#{$space} {
+        margin: #{$space}rem;
+    }
+    .mtb-#{$space} {
+        margin: #{$space}rem 0;
+    }
+    .p-#{$space} {
+        margin: #{$space}rem;
+    }
+    .ptb-#{$space} {
+        margin: #{$space}rem 0;
+    }
+}
+
+
+
+
+.container{
+  
+    padding: 0 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}

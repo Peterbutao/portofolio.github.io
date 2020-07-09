@@ -1,0 +1,293 @@
+.bg-primebg {
+  color: seashell;
+  border: solid 1px #17a2b8;
+  background-color: #17a2b8;
+}
+
+.bg-lightbg {
+  color: #333;
+  border: solid 0.9px #ccc;
+  background-color: #f4f4f4;
+}
+
+.bg-darkbg {
+  color: seashell;
+  background-color: #343a40;
+}
+
+.bg-dangerbg {
+  color: seashell;
+  background-color: #bc3545;
+}
+
+.bg-donebg {
+  color: seashell;
+  background-color: #28a745;
+}
+
+.bg-goldbg {
+  color: seashell;
+  background-color: rgba(218, 165, 32, 0.623);
+}
+
+.text-prime {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #17a2b8;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.text-pone {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.text-ptwo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.text-pthree {
+  font-weight: 500;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.555);
+  padding-bottom: 4px;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.mtb-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  margin: 1rem;
+}
+
+.ptb-1 {
+  margin: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.mtb-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  margin: 2rem;
+}
+
+.ptb-2 {
+  margin: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.mtb-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  margin: 3rem;
+}
+
+.ptb-3 {
+  margin: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.mtb-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  margin: 4rem;
+}
+
+.ptb-4 {
+  margin: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.mtb-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  margin: 5rem;
+}
+
+.ptb-5 {
+  margin: 5rem 0;
+}
+
+.container {
+  padding: 0 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html body {
+  margin-left: 0.3px;
+  margin-right: 0.3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  border-bottom: solid 1px transparent;
+  opacity: 0.9;
+  padding: 10px;
+  background-color: #343a40;
+}
+
+.navbar p a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: seashell;
+  font-weight: 300;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 15px;
+}
+
+.navbar a {
+  color: seashell;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  padding-left: 6.3px;
+  padding-right: 4px;
+}
+
+.navbar a:hover {
+  color: rgba(218, 165, 32, 0.965);
+}
+
+form div input {
+  border: #17a2b8 solid 0.9px;
+  width: 100%;
+  height: 30px;
+  border-radius: 4.5px;
+  padding: 10px;
+}
+
+form div textarea {
+  border: #17a2b8 solid 0.9px;
+  width: 100%;
+  height: 120px;
+  border-radius: 4.5px;
+  padding: 10px;
+  resize: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+form div button {
+  border: #17a2b8 solid 1px;
+  background-color: #17a2b8;
+  color: seashell;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 3px 15px;
+}
+
+.form-group {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.form-file label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #033d46f8;
+}
+
+.form-file label input[type='file'] {
+  color: grey;
+}
+
+.form-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.details {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-image: url("/asserts/img/bg_1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.691);
+  background-blend-mode: multiply;
+}
+
+.details div {
+  color: seashell;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13.5px;
+  padding: 5px 10px;
+}
+
+.details div a {
+  color: rgba(218, 165, 32, 0.965);
+}
+
+.form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}

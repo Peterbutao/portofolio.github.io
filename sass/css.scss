@@ -1,0 +1,190 @@
+@import 'config';
+@import 'utilities';
+
+@mixin text {
+    font-size: 13.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+  
+    margin-left: 0.3px;    
+    margin-right: 0.3px;  
+    
+
+}
+a{
+    text-decoration: none;
+    
+}
+ul li{
+    list-style: none;
+}
+img{
+    width: 100%
+}
+
+// navbar
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    border-bottom: solid 1px transparent;
+    opacity: 0.9; 
+    padding: 10px;   
+    background-color: $dark;
+
+    p{
+        a{
+            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 16px;
+            color: seashell;
+            font-weight: 300;
+        }
+    }
+
+
+    ul{
+        display: flex;
+        padding-right: 15px;
+    }
+    a{
+      color: seashell;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 12px;
+      padding-left: 6.3px;
+      padding-right: 4px;
+      
+      &:hover {
+          color: rgba(218, 165, 32, 0.965);
+      }
+    }
+}
+
+
+//contact
+
+
+form{
+
+    div{
+        input{
+            border: $primary solid 0.9px;
+            width: 100%;
+            height: 30px;
+            border-radius: 4.5px;
+            padding: 10px;
+                  
+        }
+        textarea{
+            border: $primary solid 0.9px;
+            width: 100%;
+            height: 120px;
+            border-radius: 4.5px;
+            padding: 10px;
+            resize: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            
+
+        }
+        button{
+            border: $primary solid 1px;
+            background-color: $primary;
+            color: seashell;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding:3px 15px;
+        }
+    }
+}
+
+.form-group{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.form-file{
+    label{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        color: #033d46f8;
+
+        input[type='file' ]{
+            color:grey;
+            
+            
+        }
+    }
+    
+}
+.form-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.details{
+    flex: 1;
+    background-image: url('/asserts/img/bg_1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.691);
+    background-blend-mode: multiply;
+    div{
+        color: seashell;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13.5px;
+        padding: 5px 10px;
+        a{
+            color: rgba(218, 165, 32, 0.965);
+        }
+    }
+
+
+//footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.form{
+    flex: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

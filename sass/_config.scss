@@ -1,0 +1,34 @@
+$primary: #17a2b8;
+$dark: #343a40;
+$light: #f4f4f4;
+$danger: #bc3545;
+$done: #28a745;
+$gold: rgba(218, 165, 32, 0.623);
+
+@function set-color($color) {
+    @if(lightness($color) > 50){
+        @return #333;
+    } @else{
+        @return seashell;
+    }
+}
+
+@mixin  set-back($color) {
+    
+    color: set-color(($color));
+    
+    
+}
+@mixin set-text() {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+@mixin set-backg {
+    background-image: url('/asserts/img/pic6.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.801);
+    background-blend-mode: multiply;  
+    
+}
