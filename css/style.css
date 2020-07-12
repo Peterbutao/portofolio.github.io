@@ -5,13 +5,129 @@
           box-sizing: border-box;
 }
 
+/* Preloder */
+#preloder {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  background: #000000de;
+  -webkit-transition: opacity all 0.5s ease;
+  transition: opacity all 0.5s ease;
+}
+
+#preloder .loadtext {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  margin-top: -13px;
+  margin-left: -13px;
+}
+
+#preloder .loadtext h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: goldenrod;
+}
+
+#preloder .loadtext p {
+  font-size: 11px;
+  font-weight: 100;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.loader {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  margin-top: -13px;
+  margin-left: -13px;
+  border-radius: 60px;
+  animation: loader 0.9s linear infinite;
+  -webkit-animation: loader 0.9s linear infinite;
+  color: whitesmoke;
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border: 4px solid #0aff02;
+    border-width: 0.9px;
+    border-top-color: transparent;
+  }
+  25% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border: 4px solid #621d74;
+    border-width: 1px;
+    border-right-color: transparent;
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border: 4px solid #2f80af;
+    border-width: 1px;
+    border-bottom-color: transparent;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+    border-width: 0.9px;
+  }
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border: 4px solid #0aff02;
+    border-width: 0.9px;
+    border-top-color: transparent;
+  }
+  25% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border: 4px solid #621d74;
+    border-width: 1px;
+    border-right-color: transparent;
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border: 4px solid #2f80af;
+    border-width: 1px;
+    border-bottom-color: transparent;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+    border-width: 0.9px;
+  }
+}
+
+.preload-finish {
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
 html body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-left: 0.1%;
-  padding-right: 0.1%;
 }
 
 a {
@@ -20,20 +136,20 @@ a {
 
 /*first page*/
 #frst_pg {
-  background: url("../asserts/img/pic6.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.548);
   background-blend-mode: multiply;
+  background-image: url("../asserts/img/pic6.jpeg");
+  background-color: rgba(0, 0, 0, 0.548);
+  height: 100vh;
 }
 
 .brand p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: seashell;
   font-size: 16px;
   padding: 5px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav_bar {
@@ -46,8 +162,9 @@ a {
 }
 
 .nav_bar ul li a {
-  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: seashell;
+  text-decoration: none;
 }
 
 .nav_bar ul li {
@@ -75,16 +192,16 @@ a {
 
 /* mid section */
 .midSectNm {
-  color: seashell;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
   font-size: 13px;
   padding-left: 15px;
   padding-bottom: 15px;
 }
 
 .midSectTitle {
-  color: goldenrod;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: goldenrod;
   font-size: 2.1em;
   font-weight: bold;
   padding-left: 15px;
@@ -97,8 +214,8 @@ a {
 }
 
 .ico-words {
-  color: seashell;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
   font-size: 10.5px;
   text-align: center;
 }
@@ -146,8 +263,8 @@ a {
 }
 
 .getStWords {
-  color: seashell;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
   font-size: 16px;
   padding-bottom: 5px;
   padding-right: 5px;
@@ -193,9 +310,6 @@ a {
 
 .displayp {
   height: 350px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .allintertext {
@@ -203,17 +317,17 @@ a {
 }
 
 .about {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
   background-image: url("../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg");
   background-color: #000000d5;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: multiply;
 }
 
 .intermidwords {
-  color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
   font-size: 17px;
   font-weight: 300;
   padding-top: 10px;
@@ -224,6 +338,7 @@ a {
 .intermidaddress {
   color: rgba(255, 255, 255, 0.459);
   padding-top: 30px;
+  font-size: 11px;
 }
 
 .intermidicons ul {
@@ -243,27 +358,35 @@ a {
 }
 
 .intermidtitle {
-  color: white;
-  font-size: 20px;
-  background-image: url("../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg");
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.589);
-  background-blend-mode: multiply;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
+  font-size: 15px;
+  font-weight: 300;
   text-align: center;
+  padding: 3px;
 }
 
 .readmore {
   padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .readmore a {
-  color: white;
-  border: goldenrod solid 1px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
+  border-left: goldenrod solid 1px;
+  border-top: goldenrod solid 1px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
   padding-top: 5px;
   border-radius: 4rem;
+  font-size: 13.5px;
 }
 
 /* porto section*/
@@ -287,10 +410,65 @@ a {
 }
 
 .portocontainer {
-  background-image: url("../asserts/img/pic6.jpeg");
-  background-color: #0000009c;
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   background-blend-mode: multiply;
+  background-image: url("../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg");
+  background-color: rgba(0, 0, 0, 0.822);
+}
+
+.footer {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-image: url("/asserts/img/bg_1.jpg");
+  background-color: rgba(0, 0, 0, 0.691);
+  height: 150px;
+}
+
+.copyright {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.copyright span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(255, 245, 238, 0.602);
+  font-size: 11.8px;
+}
+
+.ftcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 25px;
+}
+
+.foot a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3px;
+}
+
+.foot p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.foot:hover {
+  border-bottom: solid 0.9px  #daa520be;
 }

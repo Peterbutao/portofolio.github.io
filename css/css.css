@@ -31,20 +31,23 @@
 }
 
 .text-prime {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
   color: #17a2b8;
   font-weight: 300;
   font-size: 15px;
 }
 
 .text-pone {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
   font-weight: 300;
   font-size: 15px;
 }
 
 .text-ptwo {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
   font-size: 13px;
   font-weight: 200;
 }
@@ -138,7 +141,7 @@
 
 .container {
   padding: 0 1.5rem;
-  margin-top: 3rem;
+  margin-top: 0px;
   margin-bottom: 3rem;
 }
 
@@ -183,13 +186,12 @@ img {
   border-bottom: solid 1px transparent;
   opacity: 0.9;
   padding: 10px;
-  background-color: #343a40;
 }
 
 .navbar p a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
   color: seashell;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -201,8 +203,8 @@ img {
 }
 
 .navbar a {
-  color: seashell;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
   font-size: 12px;
   padding-left: 6.3px;
   padding-right: 4px;
@@ -212,31 +214,108 @@ img {
   color: rgba(218, 165, 32, 0.965);
 }
 
+nav.back {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-image: url("/asserts/img/photo.jpg");
+  background-color: rgba(0, 0, 0, 0.691);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+nav.back p a {
+  color: whitesmoke;
+}
+
+nav.back ul li a {
+  color: whitesmoke;
+}
+
+.context {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-image: url("/asserts/img/photo.jpg");
+  background-color: rgba(0, 0, 0, 0.691);
+  height: 200px;
+}
+
+.context .ttpara {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.context .ttpara span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 100px;
+  color: goldenrod;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.context .ttpara p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.error {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-left: red solid 3px;
+  padding: 10px 5px;
+  background-color: #e8f0fe;
+  color: black;
+}
+
 form div input {
-  border: #17a2b8 solid 0.9px;
-  width: 100%;
-  height: 30px;
-  border-radius: 4.5px;
+  border: none;
   padding: 10px;
+  width: 100%;
+  height: 45px;
+  color: black !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 form div textarea {
-  border: #17a2b8 solid 0.9px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: black solid 0.9px;
   width: 100%;
-  height: 120px;
+  height: 150px;
   border-radius: 4.5px;
   padding: 10px;
   resize: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
 }
 
 form div button {
-  border: #17a2b8 solid 1px;
-  background-color: #17a2b8;
-  color: seashell;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
+  border: #ffa323 solid 1px;
+  background-color: goldenrod;
   padding: 3px 15px;
+  width: 100%;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+form div button:hover {
+  background-color: white;
+  color: goldenrod;
 }
 
 .form-group {
@@ -244,15 +323,26 @@ form div button {
   padding-bottom: 3px;
 }
 
+.form-group input {
+  border: solid 0.1px black;
+}
+
+.form-file {
+  width: 100%;
+  padding: 5px;
+  height: 40px;
+}
+
 .form-file label {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
   font-weight: 600;
-  color: #033d46f8;
+  color: #00000096;
 }
 
 .form-file label input[type='file'] {
   color: grey;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .form-details {
@@ -267,27 +357,99 @@ form div button {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-image: url("/asserts/img/bg_1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.691);
-  background-blend-mode: multiply;
+  background-color: whitesmoke;
+}
+
+.details p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 3px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.541);
 }
 
 .details div {
-  color: seashell;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
   font-size: 13.5px;
   padding: 5px 10px;
 }
 
 .details div a {
-  color: rgba(218, 165, 32, 0.965);
+  color: #17a2b8;
+}
+
+.details div span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(0, 0, 0, 0.733);
+  font-size: 13.5px;
+  font-weight: bold;
 }
 
 .form {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+
+.footer {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-image: url("/asserts/img/bg_1.jpg");
+  background-color: rgba(0, 0, 0, 0.691);
+  height: 150px;
+}
+
+.btftcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btft {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btft a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btft a img {
+  width: 16px;
+  margin: auto;
+}
+
+.btft a p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
+  font-size: 12px;
+}
+
+.btft a:hover {
+  border-bottom: solid 0.9px rgba(218, 165, 32, 0.965);
+}
+
+.copyright {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.copyright span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
+  font-size: 10px;
 }

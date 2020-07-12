@@ -18,5 +18,3 @@ console.log(`name   : ${authour.name} ${authour.surname}`);
 console.log(`mail   : ${authour.mail} `);
 console.log(`website: ${authour.website} `);
 console.log(`contact: ${authour.contant.airtel} `);
-
-

@@ -1,4 +1,15 @@
-console.log('script.js is online')
+console.log('script.js is online');
+
+
+//preloader
+
+
+window.addEventListener('load', () => {
+    const preload = document.getElementById('preloder');
+    preload.classList.add('preload-finish');
+});
+
+//toogle
 
 
 const navLinks = document.querySelector('.nav-links');
@@ -17,5 +28,16 @@ hambr.addEventListener('click', function(event) {
     navLinks.classList.toggle("open");
     event.preventDefault();
 });
+
+// nav bar
+
+
+
+
+
+
+
+
+
 
 

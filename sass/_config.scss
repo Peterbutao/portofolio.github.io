@@ -19,16 +19,20 @@ $gold: rgba(218, 165, 32, 0.623);
     
     
 }
+//compile mixins
+
 @mixin set-text() {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: seashell;
 
 }
 @mixin set-backg {
-    background-image: url('/asserts/img/pic6.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.801);
     background-blend-mode: multiply;  
     
+}
+@mixin font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }

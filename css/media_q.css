@@ -41,7 +41,7 @@
     height: 50px;
   }
   .xsy {
-    background-image: url("../asserts/img/icons/Cancel.png");
+    background-image: url("../asserts/svg/Cancel.svg");
     background-position: start;
     background-repeat: no-repeat;
     height: 2.5vh;
@@ -103,21 +103,13 @@
     width: 100%;
   }
   .intermidwords {
-    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: seashell;
     font-size: 14px;
     font-weight: 300;
     padding-top: 5px;
     padding-right: 10px;
     padding-left: 10px;
-  }
-  .about {
-    background-image: url("../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg");
-    background-color: #000000b4;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode: multiply;
   }
   .displayp {
     height: 350px;

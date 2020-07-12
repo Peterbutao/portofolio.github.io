@@ -31,20 +31,23 @@
 }
 
 .text-prime {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
   color: #17a2b8;
   font-weight: 300;
   font-size: 15px;
 }
 
 .text-pone {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
   font-weight: 300;
   font-size: 15px;
 }
 
 .text-ptwo {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
   font-size: 13px;
   font-weight: 200;
 }
@@ -138,7 +141,7 @@
 
 .container {
   padding: 0 1.5rem;
-  margin-top: 3rem;
+  margin-top: 0px;
   margin-bottom: 3rem;
 }
 
@@ -146,5 +149,28 @@
   .lead {
     color: whitesmoke;
     font-size: 9.7px;
+  }
+  .container {
+    padding: 0 0.4rem;
+    margin-top: 0px;
+    margin-bottom: 3rem;
+  }
+  .form span label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .form span label input {
+    width: 50%;
+  }
+  .form-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }

@@ -1,10 +1,33 @@
 @import 'config';
 @import 'utilities';
+
 @media screen and (max-width: 768px){
     .lead{
         color: whitesmoke;
         font-size: 9.7px;
         
+    }
+    .container{
+  
+        padding: 0 0.4rem;
+        margin-top: 0px;
+        margin-bottom: 3rem;
+    }
+    .form{
+        span{
+            label{
+                display: flex;
+                width: 100%;
+                
+                input{
+                    width: 50%;
+                }
+            }
+        }
+    }
+    .form-details{
+        display: flex;
+        flex-direction: column;
     }
     
 }

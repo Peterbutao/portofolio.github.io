@@ -1,12 +1,26 @@
 @import 'config';
 @import 'utilities';
 
-html body{
-    @include set-backg
+//nav underline
+.inst-about{
+    border-bottom: #daa520 solid 1px;   
+    background-color: rgba(255, 255, 255, 0.102);
+    
+}
+//context
+.context{
+    background-image: url('/asserts/img/photo2.jpg');
+    background-color: rgba(0, 0, 0, 0.691);       
+}
+nav.back{
+    background-image: url('/asserts/img/photo2.jpg');
+    background-color: rgba(0, 0, 0, 0.691);   
 }
 
+//site
+
 .profile-top{
-    background-color: rgba(218, 165, 32, 0.534);
+    background-color: $dark;
 }
 .profile-top{
     padding: 2rem;
@@ -62,15 +76,12 @@ html body{
     }
 }
 .aboutNm{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    @include set-text();
     font-size: 20px;
-    font-weight: 400;
-    color: whitesmoke;
-    
+    font-weight: 400;    
 }
 .lead{
-    color: whitesmoke;
-    
+    color: whitesmoke; 
     
 }
 
@@ -80,7 +91,7 @@ html body{
         padding: 1rem;
 
         li {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            @include font();
             font-size: 13px;
             padding: 3px;
             
