@@ -66,6 +66,7 @@ nav.back{
     .profile-about{
         grid-area: about;
         text-align: center;
+     
     }
     .profile-edu{
         grid-area: edu;
@@ -106,4 +107,31 @@ nav.back{
         }
     }
 }
-
+.external{
+    background-color: #1E5171;
+    padding: 10px;
+    .ext{
+        ul{
+            display: flex;
+            justify-content: center;
+        }
+        ul li{
+            list-style: none;
+            padding: 5px 15px;
+            
+            a{
+                @include font();
+                text-decoration: none;
+                background-color: #1E5171;
+                padding: 5px;
+                font-size: 13px;
+                
+                color: seashell;
+                &:hover{
+                    background-color: seashell;
+                    color: #1E5171;
+                }
+            }
+        }
+    }
+}

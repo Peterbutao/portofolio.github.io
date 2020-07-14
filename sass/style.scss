@@ -45,7 +45,7 @@
 	height: 45px;
 	position: absolute;
 	top: 50%;
-	left: 65%;
+	left: 70%;
 	margin-top: -13px;
 	margin-left: -13px;
 	border-radius: 60px;
@@ -353,25 +353,33 @@ a{
 
 }
 /* porto section*/
-
-.portowrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.porto{
+    background-color: whitesmoke;
     
-}
-.portimg img{
-    height: 200px;
-    flex: 1 1 50%;
-    padding: 0px;
-    
-}
-.portocontainer{
-    @include set-backg();
-    background-image: url('../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg');
-    background-color: rgba(0, 0, 0, 0.822);
 
+    .portocontainer{
+
+        .portowrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1px;
+
+            .port{
+                .portimg img{
+                    width: 300px;
+                    padding: 1px;
+                    
+                }
+            }
+            
+        }
+    }
 }
+
+
+
+
 //footer
 
 .footer{

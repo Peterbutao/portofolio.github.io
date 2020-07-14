@@ -128,12 +128,27 @@
       
     
     }
-    .portimg img{
-        height: 110px;
-        flex: 1 ;
-        padding: 5px;
-        
+    .porto{
+    
+        .portocontainer{
+    
+            .portowrapper{
+                
+                .port{
+                    .portimg img{
+                        width: 100%;
+                        padding-top: 3px;
+                        
+                    }
+                }
+                
+            }
+        }
     }
+    
+    
+
+ 
 
     
     
