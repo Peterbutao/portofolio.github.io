@@ -33,11 +33,6 @@ form.addEventListener('submit', function onsubmit(event) {
     
 });
 
-form.addEventListener('submit', function(event){
-    localStorage.setItem('data', JSON.stringify(form));
-    event-preventDefault();
-})
-
 
 window.addEventListener('scroll', function (event) {
     event.preventDefault();
