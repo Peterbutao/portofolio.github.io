@@ -140,7 +140,7 @@ a{
 
 #frst_pg{
     @include set-backg();
-    background-image: url('../asserts/img/pic6.jpeg');    
+    background-image: url('/asserts/img/photo3.jpg');    
     background-color: rgba(0, 0, 0, 0.548);
     height: 100vh;
 
@@ -295,7 +295,7 @@ a{
 
 .about{
     @include set-backg();
-    background-image: url('../asserts/img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg');
+    background-image: url('/asserts/img/photo4.jpg');
     background-color: #000000d5;
 }
 .intermidwords{
@@ -384,7 +384,7 @@ a{
 
 .footer{
     @include set-backg();
-    background-image: url('/asserts/img/bg_1.jpg');
+    background-image: url('/asserts/img/photo5.jpg');
     background-color: rgba(0, 0, 0, 0.691);
     height: 150px;
  
