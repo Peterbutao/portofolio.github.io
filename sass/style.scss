@@ -355,9 +355,20 @@ a{
 /* porto section*/
 .porto{
     background-color: whitesmoke;
+    padding-left: 5px;
+    padding-right: 5px;
     
 
     .portocontainer{
+        .portotitle{
+            p{
+                @include font();
+                text-align: center;
+                font-weight: 400;
+
+            }
+        }
+
 
         .portowrapper{
             display: flex;
