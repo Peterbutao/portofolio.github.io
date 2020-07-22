@@ -1,0 +1,104 @@
+
+/*services*/
+
+#services{
+    background-image: url('/asserts/img/photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.863);
+    background-blend-mode: multiply;
+    min-height:100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.servtitle p{
+    color: seashell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 15px;
+    font-weight: 100;
+}
+
+.servwrapper{
+    width: min(1200px, 100%);
+    display: flex;
+    justify-content: center;
+    
+}
+.srapper{
+    padding: 20px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin: auto;
+    
+}
+.serv{
+    width: calc(33% -10px);
+    overflow:hidden;
+}
+.servtext{
+    width: 250px;
+    background-color: red;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 6px;
+    transform: translateY(-60px);
+    transition: .3s linear;
+}
+@media screen and (max-width: 768px){
+    #services{
+        background-image: url('/asserts/img/photo.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: multiply;
+        
+        background-color: rgba(0, 0, 0, 0.767);
+    
+    }
+    .servtext{
+        width: 100%;
+        background-color: #00000083;
+        margin: 0 20px;
+        padding: 30px;
+        border-radius: 6px;
+        transform: translateY(-60px);
+        transition: .3s linear;
+    }
+    .servimg img{
+        width: 0px;
+    }
+}
+
+.servtext p{
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: seashell;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+    
+
+.servimg{
+    width: 100%;
+    border-radius: 6px;
+    transition: .3s linear;
+}
+.servimg img{
+    width: 100%;
+}
+
+
+.serv:hover .servimg {
+        transform: translateY(5px);
+}
+
+.serv:hover .servtext {
+        transform: translateY(-120px);        
+        background-color: #000000c2;
+}

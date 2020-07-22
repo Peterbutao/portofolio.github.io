@@ -172,7 +172,8 @@ a{
 }
 .left-nav{
     display: flex;
-    margin-left: auto;
+    margin-left: auto;    
+	z-index: 999999;
 }
 .head{
     display: flex;
@@ -354,19 +355,24 @@ a{
 }
 /* porto section*/
 .porto{
-    background-color: whitesmoke;
+    background-color: #122020dc;
     padding-left: 5px;
     padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 
     .portocontainer{
         .portotitle{
+            padding-bottom: 10px;
             p{
-                @include font();
-                text-align: center;
-                font-weight: 400;
+                @include set-text;
+                font-weight: 100;
+                padding: 5px 15px;
 
             }
+          
         }
 
 
@@ -377,6 +383,10 @@ a{
             padding: 1px;
 
             .port{
+                p{
+                    @include set-text();
+                    font-size: 12px;
+                }
                 .portimg img{
                     width: 300px;
                     padding: 1px;
@@ -387,9 +397,6 @@ a{
         }
     }
 }
-
-
-
 
 //footer
 

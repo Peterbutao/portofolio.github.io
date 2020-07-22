@@ -1,11 +1,11 @@
 const authour = {
     name:'Peter rodrigues',
     surname:'Butao',
-    website:'www.peterbutao.tk',
+    website:'www.peterbutao.netlify.app',
     mail:'peterethanbutao@gmail.com',
     contant:{
-        airtel:0993312670,
-        tnm:0880164455
+        airtel:'0993312670',
+        tnm:'0880164455'
     },
     address:{
         country:'Malawi',
