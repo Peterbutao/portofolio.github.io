@@ -29,15 +29,3 @@ hambr.addEventListener('click', function(event) {
     event.preventDefault();
 });
 
-// nav bar
-
-
-
-
-
-
-
-
-
-
-

@@ -126,7 +126,9 @@
     opacity: 0;
     pointer-events: none;
 }
-//site
+
+/* site */
+
 html body{
     @include font();
     height: 100%;
@@ -135,6 +137,7 @@ html body{
 a{
     text-decoration: none;
 }
+
 /*first page*/
 
 
@@ -181,7 +184,7 @@ a{
 
 .hambr{
     padding: 10px;
-}
+}            
 
 /* mid section */
 
@@ -280,8 +283,91 @@ a{
     margin-top: 120px;
 }
 
+@media screen and (min-width: 768px){
+    .hambug{
+        display: none;
+    }
+    .hambr{
+        display: none;
+    }
+    
+    #frst_pg{   
+        background-color: rgba(0, 0, 0, 0.815);
 
-/*intermiddle section / about*/
+    }
+    .brand{
+        margin-left: 50px;
+        p{
+            padding: 11.5px;
+        }
+    }
+    .left-nav{
+        margin-right: 100px;
+        .nav_bar{
+            .nav-links{
+                padding: 10px;
+                ul li{
+                    a{
+                        font-weight: 100;
+                        &:hover{
+                            color: goldenrod;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mid-sect{
+        margin-left: 20px;
+        .midSectNm{
+            font-size: 15px;
+            font-weight: 100;
+            padding-left: 15px;
+            padding-bottom: 10px;
+        }
+        
+        .midSectTitle{
+            font-size: 54px;
+            font-weight: bold;
+            padding-left: 15px;
+            letter-spacing: 3px;
+        }
+    }
+    .midSectWords{ 
+        margin-top: 120px;  
+        
+    }
+    .frst-ico{
+        padding-right: 20px;
+        padding-left: 5px;
+    }
+    .snd-ico{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .thrd-ico{
+        padding-right: 20px;
+        padding-left: 45px;
+    }
+    .ico-words{
+        font-size: 13px;
+        padding-top: 8px;
+    }
+    .frstpgfoot{
+        margin-left: 55px;
+    }
+    .getSt{
+        margin-right:100px;
+        .setStSect{
+            &:hover{
+                width: 150px;
+            }
+        }
+    }
+}
+
+/* about*/
 
 .intermidcontainer{
     display: flex;
@@ -383,6 +469,7 @@ a{
             padding: 1px;
 
             .port{
+                padding: 15px;
                 p{
                     @include set-text();
                     font-size: 12px;
@@ -397,7 +484,68 @@ a{
         }
     }
 }
+/*Hire section*/
+.hire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 250px;
+    .frstpghire{
+        .hiretext{
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+            p{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 25px;
+                font-weight: 900;
+                color:#daa520;              
+                
+            }
+        }
+        .hirebtn{
+            text-align: center;
+            border: solid 1px black;
+            border-radius: 4rem;
+            padding: 5px;
+            width: 150px;
+            margin: auto;
+            &:hover{
+                background-color: #daa520;
+                border: none;
+                color: seashell;
 
+            }
+            
+            a{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 13.5px;
+                font-weight: 600;
+                color: black;
+                cursor: pointer;
+                
+            }
+        }
+        .hiredetails{
+            padding-top: 20px;
+            ul{
+                display: flex;
+                li{
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #2f80af;
+                        font-size: 11px;
+                        border-bottom: #2f80af solid 0.9px;
+                    }
+                }
+            }
+        }
+    }
+}
 //footer
 
 .footer{

@@ -2,12 +2,12 @@
 /*services*/
 
 #services{
-    background-image: url('/asserts/img/photo.jpg');
+    background-image: url('/asserts/img/photo2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.863);
     background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.685);
     min-height:100vh ;
     display: flex;
     align-items: center;
@@ -43,36 +43,12 @@
 }
 .servtext{
     width: 250px;
-    background-color: red;
+    background-color: #00000083;
     margin: 0 20px;
     padding: 30px;
     border-radius: 6px;
     transform: translateY(-60px);
     transition: .3s linear;
-}
-@media screen and (max-width: 768px){
-    #services{
-        background-image: url('/asserts/img/photo.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: multiply;
-        
-        background-color: rgba(0, 0, 0, 0.767);
-    
-    }
-    .servtext{
-        width: 100%;
-        background-color: #00000083;
-        margin: 0 20px;
-        padding: 30px;
-        border-radius: 6px;
-        transform: translateY(-60px);
-        transition: .3s linear;
-    }
-    .servimg img{
-        width: 0px;
-    }
 }
 
 .servtext p{
@@ -102,3 +78,27 @@
         transform: translateY(-120px);        
         background-color: #000000c2;
 }
+
+@media screen and (max-width: 768px){
+    #services{        
+        background-position: left;
+        background-color: rgba(0, 0, 0, 0.767);
+    
+    }
+    .servtext{
+        width: 100%;
+        background-color: #00000083;
+        margin: 0 20px;
+        padding: 30px;
+        border-radius: 6px;
+        transform: translateY(-60px);
+        transition: .3s linear;
+    }
+    .servimg img{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 768px){}
+
