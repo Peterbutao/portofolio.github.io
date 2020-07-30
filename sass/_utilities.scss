@@ -49,12 +49,18 @@
         
         font-weight: 500;
         font-size: 11px;
-        color: rgba(255, 255, 255, 0.555);
-        padding-bottom: 4px;
+        color: rgba(0, 0, 0, 0.89);
+        padding: 10px 0px;
        
     }
 }
 
+.container{
+  
+    padding: 0 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 3rem;
+}
 //margin ans padding
 $items : (1,2,3,4,5);
 
@@ -72,13 +78,6 @@ $items : (1,2,3,4,5);
         margin: #{$space}rem 0;
     }
 }
+/*portofolio*/
 
 
-
-
-.container{
-  
-    padding: 0 1.5rem;
-    margin-top: 0px;
-    margin-bottom: 3rem;
-}

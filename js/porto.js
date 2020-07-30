@@ -1,20 +1,9 @@
-
-
-console.log('porto js online')
-//portofolio
-const item = document.querySelector('.porto-item-wr');
-const word = document.querySelector('.subtitle');
-
-
-
-word.addEventListener('mouseover', function(event) {
+window.addEventListener('scroll', function (event) {
     event.preventDefault();
-    console.log(item.value);
-    item.classList.add("color");
-})
+    var nav = document.querySelector('nav');
+    console.log('scroll');
+    nav.classList.toggle('pback', window.scrollY > 10);
+    
+});
 
-item.addEventListener('mouseout', function(event) {
-    event.preventDefault();
-    console.log(item.value);
-    item.classList.remove("bg-darken");
-})
+

@@ -18,15 +18,31 @@ nav.back{
 }
 
 //site
+.rating{
+    width: 90px;
+}
 
 .profile-top{
-    background-color: $dark;
+    background-color:  white;
+    text-align: start;
+    
 }
 .profile-top{
-    padding: 2rem;
+    .pt-left{
+        padding-right:5px;
+        width: 350px;
+        padding-right: 10px;
+        
+    }
+    .pt-right{
+        padding-left: 20px;
+        width: 50%;
+        
+    }
+    padding: 50px;
     
     .display{
-        width: 250px;  
+        width: 100%;  
      
     }
     .abt-address img{
@@ -56,16 +72,14 @@ nav.back{
     .profile-top{
         grid-area: top;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        
         
 
     }
     .profile-about{
         grid-area: about;
-        text-align: center;
+        text-align: start;
+        padding: 0px 145px;
      
     }
     .profile-edu{
@@ -77,17 +91,60 @@ nav.back{
     }
 }
 .aboutNm{
-    @include set-text();
-    font-size: 20px;
-    font-weight: 400;    
+    @include font();
+    color: black;
+    font-size: 21px;
+    font-weight: 700;    
 }
 .lead{
-    color: whitesmoke; 
+    @include font();
+    font-size: 15px;
+    padding:10px 0px;
+    color: black; 
+    text-align: start;
     
 }
+.leadlist{
+    padding-top: 10px;
+    li{
+        padding: 3px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        a{
+            color: rgba(0, 0, 0, 0.719);
+            font-size: 13.5px;
+            font-weight:normal;
+        }
+        
+        span{
+            @include font();
+            font-style: 14px;
+            font-weight: 400;
+            border-right: transparent 0.9px solid;
+            
+            
+        }
+        .sprate{
+            padding-right: 26px;
 
+        }
+        .spsite{
+            padding-right: 54px;
 
+        }
+        .spmail{
+            padding-right: 48px;
+
+        }
+    }
+}
+
+.skillspan{
+    display: flex;
+}
 .skillset {
+    ul li{
+        list-style: disc;
+    }
     ul {
         padding: 1rem;
 
@@ -135,5 +192,55 @@ nav.back{
         }
     }
 }
-
-@media screen and (min-width: 768px){}
+//phone
+@media screen and (max-width: 768px){
+    .abt-address{
+        align-items: start;
+    }
+    .leadlist{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .profile-about{
+        text-align: start;
+        padding: 0px 5px !important;
+     
+    }
+    .profile-top{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 0px;
+    }
+    .pt-right{
+        width: 100% !important;
+        text-align: start;
+        .leadlist{
+            text-align: start;
+            padding: 15px 0px;
+        }
+    }
+    .pt-left{
+        background-color: seashell;
+        width: 100% !important;
+        padding:none;
+        .display{
+            padding-left: 10px;
+            
+        }
+    }
+    .aboutNm{
+        @include font();
+        text-align: start;
+        color: black;
+        font-size: 21px;
+        font-weight: 700;    
+    }
+    .lead{
+        @include font();
+        font-size: 15px;
+        text-align: start;
+        
+    }
+        
+}

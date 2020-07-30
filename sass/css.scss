@@ -84,6 +84,27 @@ nav.back{
     }
 
 }
+nav.pback{
+    @include set-backg();
+    background-image: url('/asserts/img/photo6.jpg');
+    background-color: rgba(0, 0, 0, 0.691);
+    
+    
+    transition: 2s;
+    p{
+        a{
+            color: whitesmoke;
+        }
+    }
+    ul{
+        li{
+            a{
+                color:whitesmoke;
+            }
+        }
+    }
+
+}
 
 @media screen and (min-width: 768px){
     .navbar{
@@ -103,34 +124,81 @@ nav.back{
 
 
 /* Portofolio page*/
+
 .porto-img-bg{
-    background-image: url('/asserts/img/photo.jpg');
-    background-color: rgba(0, 0, 0, 0.376);
-    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;               
+}
+@mixin pcard() {
     
+    height: 300px;
+    width: 100%;     
+    background-color: rgba(0, 0, 0, 0.164);
+    background-blend-mode: multiply;
+
+}
+.portcard-1{
+    @include pcard();
+    height: 350px;
+    background-size: 255px;
+    background-image: url('/porto/design.png');
+
     
 }
+.portcard-2{
+    @include pcard();
+    background-size: 250px;
+    height: 350px;
+    background-image: url('/porto/webapp.png');
+    
+}
+.portcard-3{
+    @include pcard();
+    background-size: 250px;
+    height: 350PX;
+    background-image: url('/porto/makamaka.png');
+    
+}
+.portcard-4{
+    @include pcard();
+    background-size: 250px;
+    height: 350px;
+    background-image: url('/porto/kenny.png');
+    
+}
+.portcard-5{
+    @include pcard();
+    background-size: 250px;
+    height: 350px;
+    background-image: url('/porto/maka.png');
+    
+}
+.portcard-6{
+    @include pcard();
+    background-size: 250px;
+    height: 350px;
+    background-image: url('/porto/dogshow.png');
+    
+}
+
 .content-wrapper{
     
     .porto-items-wrapper{
+        padding: 0px 40px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns:1fr 1fr 1fr;
         .porto-item-wr{
             position: relative;
             
             &:hover .porto-img-text .subtitle{
+                transition: 1s;
                 color: white;
+                font-size: 21px;
             }
             &:hover .porto-img-bg{
-                transition: 1s;
-                background-color: rgba(0, 0, 0, 0.856);
-            }
-            .porto-img-bg{
-                height: 300px;
-                width: 100%; 
-                background-size: cover;
-                background-position: center; 
-                background-repeat: no-repeat;               
+                transition: 0.09s;
+                background-color: rgba(17, 17, 17, 0.856);
             }
             .porto-img-text{
                 position: absolute;
@@ -147,10 +215,12 @@ nav.back{
                 .img-wrapper img{
                     width: 50%;
                     margin-bottom: 20px;
+                    
+                    
                 }
                 .subtitle{
-                    filter: brightness(100%);
-                    transition: 1s;
+                    filter: brightness(100%);    
+                    font-size: 21px;
                     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                     color: transparent;
                     
@@ -160,13 +230,13 @@ nav.back{
     }
 }
 
-.bg-darken{
-    transition: 1s;
-    filter: brightness(30%);
 
+@media screen and (max-width: 768px){
+    .porto-items-wrapper{
+        padding: 5px 5px !important;
+        grid-template-columns: 1fr !important;
+    }
 }
-
-
 //contact
 .context{
     @include set-backg();

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="10" viewBox="0 0 66 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #ffbd39;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        fill: #8f8878;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="10" height="10"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.352" y1="0.55" x2="0.527" y2="0.538" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbd39"/>
+      <stop offset="1" stop-color="#8f8878"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_40" data-name="Group 40" transform="translate(-540 -322)">
+    <g id="Favorite" class="cls-2" transform="translate(540 322)">
+      <path id="Path_157" data-name="Path 157" class="cls-3" d="M5,0,6.563,3.026,10,3.51,7.5,5.871,8.063,9.2,5,7.626,1.938,9.2,2.5,5.871,0,3.51l3.438-.484Z"/>
+      <rect id="Rectangle_1449" data-name="Rectangle 1449" class="cls-1" width="4" height="4" transform="translate(0 0)"/>
+    </g>
+    <g id="Favorite-2" data-name="Favorite" class="cls-2" transform="translate(554 322)">
+      <path id="Path_157-2" data-name="Path 157" class="cls-3" d="M5,0,6.563,3.026,10,3.51,7.5,5.871,8.063,9.2,5,7.626,1.938,9.2,2.5,5.871,0,3.51l3.438-.484Z"/>
+      <rect id="Rectangle_1449-2" data-name="Rectangle 1449" class="cls-1" width="4" height="4" transform="translate(0 0)"/>
+    </g>
+    <g id="Favorite-3" data-name="Favorite" class="cls-2" transform="translate(568 322)">
+      <path id="Path_157-3" data-name="Path 157" class="cls-3" d="M5,0,6.563,3.026,10,3.51,7.5,5.871,8.063,9.2,5,7.626,1.938,9.2,2.5,5.871,0,3.51l3.438-.484Z"/>
+      <rect id="Rectangle_1449-3" data-name="Rectangle 1449" class="cls-1" width="4" height="4" transform="translate(0 0)"/>
+    </g>
+    <g id="Favorite-4" data-name="Favorite" class="cls-2" transform="translate(582 322)">
+      <path id="Path_157-4" data-name="Path 157" class="cls-4" d="M5,0,6.563,3.026,10,3.51,7.5,5.871,8.063,9.2,5,7.626,1.938,9.2,2.5,5.871,0,3.51l3.438-.484Z"/>
+      <rect id="Rectangle_1449-4" data-name="Rectangle 1449" class="cls-1" width="4" height="4" transform="translate(0 0)"/>
+    </g>
+    <g id="Favorite-5" data-name="Favorite" class="cls-2" transform="translate(596 322)">
+      <path id="Path_157-5" data-name="Path 157" class="cls-5" d="M5,0,6.563,3.026,10,3.51,7.5,5.871,8.063,9.2,5,7.626,1.938,9.2,2.5,5.871,0,3.51l3.438-.484Z"/>
+      <rect id="Rectangle_1449-5" data-name="Rectangle 1449" class="cls-1" width="4" height="4" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>
