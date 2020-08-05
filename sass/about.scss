@@ -192,6 +192,18 @@ nav.back{
         }
     }
 }
+//desktop
+@media screen and (min-width: 768px){
+    .prl{
+        padding-left: 10rem;
+    }
+    .profile-top{
+        .pt-left{
+            padding-right:5px;
+            margin-left: 130px;
+        }
+    }
+}
 //phone
 @media screen and (max-width: 768px){
     .abt-address{
@@ -222,7 +234,7 @@ nav.back{
     }
     .pt-left{
         background-color: seashell;
-        width: 100% !important;
+        width: 100% !important;       
         padding:none;
         .display{
             padding-left: 10px;
