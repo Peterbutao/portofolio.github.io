@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="372" height="437" viewBox="0 0 372 437">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: rgba(0,0,0,0.16);
+      }
+
+      .cls-3 {
+        fill: rgba(255,255,255,0.9);
+        font-size: 29px;
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: rgba(252,137,107,0.44);
+      }
+
+      .cls-5 {
+        fill: #ecedee;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+      }
+
+      .cls-10, .cls-7, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        font-size: 3px;
+      }
+
+      .cls-7, .cls-8 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-8 {
+        font-size: 15px;
+      }
+
+      .cls-9 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-11, .cls-12 {
+        stroke: none;
+      }
+
+      .cls-12 {
+        fill: rgba(255,189,57,0);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="3" height="15"/>
+    </clipPath>
+  </defs>
+  <g id="uiservice2" transform="translate(-439 -743.03)">
+    <g id="uiservices1" transform="translate(350 550)">
+      <g id="Path_283" data-name="Path 283" class="cls-2" transform="translate(89 193.03)">
+        <path class="cls-11" d="M0,0H372V437H0Z"/>
+        <path class="cls-12" d="M 1 1 L 1 436 L 371 436 L 371 1 L 1 1 M 0 0 L 372 0 L 372 437 L 0 437 L 0 0 Z"/>
+      </g>
+      <text id="Website_Development" data-name="Website Development" class="cls-3" transform="translate(125 336)"><tspan x="0" y="0">Website Development</tspan></text>
+      <g id="Group_39" data-name="Group 39" transform="translate(-3 34)">
+        <rect id="Rectangle_1479" data-name="Rectangle 1479" class="cls-4" width="78" height="245" transform="translate(117 350)"/>
+        <g id="Group_30" data-name="Group 30" transform="translate(-59 183)">
+          <g id="Group_28" data-name="Group 28" transform="translate(-427 -3014)">
+            <g id="Attachment" transform="translate(636 3181)">
+              <rect id="Rectangle_314" data-name="Rectangle 314" class="cls-1" width="16" height="16"/>
+              <path id="Path_125" data-name="Path 125" class="cls-5" d="M3.675,10.5a3.311,3.311,0,0,1-2.45-1.05A3.38,3.38,0,0,1,0,6.825,3.511,3.511,0,0,1,.263,5.513a3.026,3.026,0,0,1,.613-1.05l1.75-1.75A2.109,2.109,0,0,1,4.2,2.1a2.391,2.391,0,0,1,1.662.7,2.247,2.247,0,0,1,.7,1.75A2.109,2.109,0,0,1,5.95,6.125L4.987,7a.668.668,0,0,1-.437.175A.938.938,0,0,1,4.025,7a1.244,1.244,0,0,1-.175-.525,1.244,1.244,0,0,1,.175-.525l.962-.963a.529.529,0,0,0,.262-.525,1.069,1.069,0,0,0-.35-.788A1.02,1.02,0,0,0,4.288,3.5a1.265,1.265,0,0,0-.613.175L1.837,5.425a2.421,2.421,0,0,0-.437,1.4,2.56,2.56,0,0,0,.7,1.662,1.816,1.816,0,0,0,.875.525A1.513,1.513,0,0,0,3.85,9.1c.263-.087.525-.087.7-.175a1.83,1.83,0,0,0,.525-.35l3.5-3.5a1.919,1.919,0,0,0,.613-1.487A2.292,2.292,0,0,0,8.4,1.925,3.9,3.9,0,0,0,7.35,1.4H6.562a1.853,1.853,0,0,0-.612.262,1.11,1.11,0,0,1-.525.088.581.581,0,0,1-.437-.35C4.9,1.313,4.9,1.138,4.9.875A1.536,1.536,0,0,1,5.25.438,3.446,3.446,0,0,1,7,0,3.239,3.239,0,0,1,9.275.875,3.692,3.692,0,0,1,10.5,3.5a3.424,3.424,0,0,1-.963,2.538l-3.5,3.5A3.231,3.231,0,0,1,3.675,10.5Z"/>
+            </g>
+            <g id="Rectangle_1474" data-name="Rectangle 1474" class="cls-6" transform="translate(632 3177)">
+              <rect class="cls-11" width="19" height="20" rx="2"/>
+              <rect class="cls-1" x="0.5" y="0.5" width="18" height="19" rx="1.5"/>
+            </g>
+          </g>
+          <text id="Design" class="cls-7" transform="translate(209 188)"><tspan x="0" y="0">Design</tspan></text>
+        </g>
+        <g id="Group_29" data-name="Group 29" transform="translate(-65 154)">
+          <g id="Group_21" data-name="Group 21" transform="translate(-72 -2985)">
+            <g id="Folder" transform="translate(324 3182)">
+              <path id="Path_178" data-name="Path 178" class="cls-5" d="M0,5.469V.492A.512.512,0,0,1,.156.13.493.493,0,0,1,.492,0H3.369a.294.294,0,0,1,.207.078.348.348,0,0,1,.156.181l.259.726h3.5a.512.512,0,0,1,.363.156.471.471,0,0,1,.156.363V5.495a.512.512,0,0,1-.156.363.471.471,0,0,1-.363.156h-7A.512.512,0,0,1,.13,5.857.7.7,0,0,1,0,5.469Z" transform="translate(0 2)"/>
+              <rect id="Rectangle_1447" data-name="Rectangle 1447" class="cls-1" width="10" height="10" transform="translate(0)"/>
+            </g>
+            <g id="Rectangle_1474-2" data-name="Rectangle 1474" class="cls-6" transform="translate(318 3177)">
+              <rect class="cls-11" width="20" height="20" rx="1"/>
+              <rect class="cls-1" x="0.5" y="0.5" width="19" height="19" rx="0.5"/>
+            </g>
+          </g>
+          <text id="Organisation" class="cls-7" transform="translate(248 217)"><tspan x="0" y="0">Organisation</tspan></text>
+        </g>
+      </g>
+      <text id="Blogs" class="cls-8" transform="translate(362 431)"><tspan x="0" y="0">Blogs</tspan></text>
+      <text id="Marketing_Sites" data-name="Marketing Sites" class="cls-8" transform="translate(295 396)"><tspan x="0" y="0">Marketing Sites</tspan></text>
+      <text id="Portofolios" class="cls-8" transform="translate(326 472)"><tspan x="0" y="0">Portofolios</tspan></text>
+      <g id="Options" class="cls-9" transform="translate(119 251)">
+        <path id="Union_1" data-name="Union 1" class="cls-10" d="M0,13a1,1,0,1,1,1,1A1,1,0,0,1,0,13ZM0,7A1,1,0,1,1,1,8,1,1,0,0,1,0,7ZM0,1A1,1,0,1,1,1,2,1,1,0,0,1,0,1Z"/>
+      </g>
+      <text id="Educational" class="cls-8" transform="translate(321 513)"><tspan x="0" y="0">Educational</tspan></text>
+    </g>
+    <g id="Group_40" data-name="Group 40" transform="translate(-51 503)">
+      <rect id="Rectangle_457" data-name="Rectangle 457" class="cls-5" width="21" height="20" rx="10" transform="translate(644 275)"/>
+      <rect id="Rectangle_458" data-name="Rectangle 458" class="cls-5" width="37" height="4" rx="2" transform="translate(669.5 276)"/>
+      <rect id="Rectangle_459" data-name="Rectangle 459" class="cls-5" width="36" height="2" rx="1" transform="translate(670.5 284.5)"/>
+      <rect id="Rectangle_460" data-name="Rectangle 460" class="cls-5" width="63" height="7" rx="3.5" transform="translate(645 301.694)"/>
+      <rect id="Rectangle_461" data-name="Rectangle 461" class="cls-5" width="64.5" height="7" rx="3.5" transform="translate(644 315.333)"/>
+    </g>
+  </g>
+</svg>

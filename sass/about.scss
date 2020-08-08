@@ -11,6 +11,7 @@
 .context{
     background-image: url('/asserts/img/photo2.jpg');
     background-color: rgba(0, 0, 0, 0.691);       
+    width: 100% !important;
 }
 nav.back{
     background-image: url('/asserts/img/photo2.jpg');
@@ -66,7 +67,7 @@ nav.back{
 .profile-grid{
     display: grid;
     grid-template-areas: 'top top' 'about about' 'edu exp';
-    grid-gap: 0.5rem;
+    
     
 
     .profile-top{
@@ -206,6 +207,7 @@ nav.back{
 }
 //phone
 @media screen and (max-width: 768px){
+    
     .abt-address{
         align-items: start;
     }
@@ -233,11 +235,10 @@ nav.back{
         }
     }
     .pt-left{
-        background-color: seashell;
-        width: 100% !important;       
-        padding:none;
+        width: 100% !important;
         .display{
-            padding-left: 10px;
+            padding-left: 0px ;
+            
             
         }
     }
